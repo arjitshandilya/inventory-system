@@ -1,0 +1,27 @@
+# Environment files (never commit real secrets)
+.env
+.env.local
+*.env
+!.env.example
+
+# Backend
+backend/venv/
+backend/venv2/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Docker
+*.log
